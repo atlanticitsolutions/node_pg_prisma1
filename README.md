@@ -5,3 +5,4 @@ node_pg_prisma
 - npm init -y
 - npm install express
 - npm install --save-dev nodemon
+- add Dockerfile
