@@ -6,7 +6,7 @@ app.use(express.json())
 app.use('/products', require('./routes/productRoute'))
 app.use('/categories', require('./routes/categoryRoute'))
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 // app.listen(port, () => {
 //   console.log('Hello world listening on port', port)
 // })
