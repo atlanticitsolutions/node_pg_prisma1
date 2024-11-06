@@ -12,6 +12,10 @@ node_pg_prisma
 - create models in prisma/schema.prisma file
 - npx prisma migrate dev --name initial_migration
 - Added controllers, routes folders
+- setup Cloud Run [https://www.youtube.com/watch?v=cr61rtWjLYQ](https://www.youtube.com/watch?v=cr61rtWjLYQ) , [https://www.youtube.com/watch?v=ZBlnwDj9-6U](https://www.youtube.com/watch?v=ZBlnwDj9-6U)
+- Add environment var DATABASE_URL="postgresql://postgres:YOURPASSWORD@34.74.125.46:5432/db1?schema=public"
+- Entire tutorial: [REST API with Node.js, Prisma and PostgreSQL](https://www.youtube.com/watch?v=ExS2OHzsvKA)
+- In DBeaver, connection Host is public IP.
 
 ## Postman APIs
 
