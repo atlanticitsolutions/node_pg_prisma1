@@ -11,3 +11,14 @@ node_pg_prisma
 - npx prisma init
 - create models in prisma/schema.prisma file
 - npx prisma migrate dev --name initial_migration
+- Added controllers, routes folders
+
+## Postman APIs
+
+### Add Category
+
+```json Add new Category
+{
+  "name": "Cat1"
+}
+```

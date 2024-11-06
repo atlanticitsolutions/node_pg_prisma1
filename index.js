@@ -1,15 +1,9 @@
 const express = require('express')
 
 const app = express()
+app.use(express.json())
 
-app.get('/', (req, res) => {
-  res.send('Node Server is running..')
-})
+app.use('/products', require('./routes/productRoute'))
+app.use('/categories', require('./routes/categoryRoute'))
 
-app.get('/health', (req, res) => {
-    res.send('Node Server is healthy.')
-  })
-  
-app.listen(3000, () => {
-  console.log('App is listening on port 3000')
-})
+app.listen(3000, () => console.log('Server started on port 3000'))
