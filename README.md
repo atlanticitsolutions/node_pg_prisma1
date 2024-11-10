@@ -16,6 +16,9 @@ node_pg_prisma
 - Add environment var DATABASE_URL="postgresql://postgres:YOURPASSWORD@34.74.125.46:5432/db1?schema=public"
 - Entire tutorial: [REST API with Node.js, Prisma and PostgreSQL](https://www.youtube.com/watch?v=ExS2OHzsvKA)
 - In DBeaver, connection Host is public IP.
+- npm i bcryptjs dotenv express-fileupload jsonwebtoken uuid @vinejs/vine
+- npx prisma migrate dev --name users_table
+-
 
 ## Postman APIs
 
