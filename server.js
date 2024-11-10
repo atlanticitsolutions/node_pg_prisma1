@@ -13,9 +13,6 @@ app.get('/', (req, res) => {
   return res.json({ message: "Hello It's working.." })
 })
 
-// app.use('/products', require('./routes/productRoute'))
-// app.use('/categories', require('./routes/categoryRoute'))
-
 // * Import routes
 import ApiRoutes from './routes/api.js'
 app.use('/api', ApiRoutes)
