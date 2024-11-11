@@ -19,7 +19,8 @@ node_pg_prisma
 - In DBeaver, connection Host is public IP.
 - npm i bcryptjs dotenv express-fileupload jsonwebtoken uuid @vinejs/vine
 - npx prisma migrate dev --name users_table
--
+- [MERN Auth Course: Email Verification, Password Recovery, and Welcome Emails](https://www.youtube.com/watch?v=pmvEgZC55Cg)
+- 
 
 ## Postman APIs
 
